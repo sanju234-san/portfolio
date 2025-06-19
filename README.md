@@ -25,7 +25,9 @@ I'm Sanjeevni Dhir — an aspiring AI and Data Science Engineer currently pursui
 - 🎓 SRM University — B.Tech in CSE (DSAI), 2023–Present
 
 ## 🔗 Live Site
-[Click to visit the live portfolio](https://sanju234-san.github.io/portfolio/)
+## 🚀 Live Portfolio
+
+👉 [Click here to view the portfolio](https://sanju234-san.github.io/portfolio/)
 
 ## 📫 Contact
 - 📧 Email: sanjeevnidhir05@gmail.com
