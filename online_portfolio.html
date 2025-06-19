@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sanjeevni 3D Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      margin: 0;
+      background: url('https://images.unsplash.com/photo-1593642532842-98d0fd5ebc1a?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80') no-repeat center center fixed;
+      background-size: cover;
+      font-family: sans-serif;
+    }
+    section, header, footer {
+      background: rgba(0, 0, 0, 0.6);
+      backdrop-filter: blur(4px);
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body class="text-slate-100">
+
+  <header class="p-4 sticky top-0 z-10 shadow-lg">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold">Sanjeevni Dhir</h1>
+      <nav class="space-x-4">
+        <a href="#about" class="hover:text-indigo-300">About</a>
+        <a href="#education" class="hover:text-indigo-300">Education</a>
+        <a href="#projects" class="hover:text-indigo-300">Projects</a>
+        <a href="#contact" class="hover:text-indigo-300">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="h-screen flex flex-col justify-center items-center p-4 my-4">
+    <h2 class="text-4xl md:text-6xl font-extrabold mt-4">Hi, I'm Sanjeevni</h2>
+    <p class="text-xl md:text-2xl text-indigo-200">Aspiring AI & Data Science Engineer</p>
+  </section>
+
+  <section id="about" class="container mx-auto my-8 p-6">
+    <h3 class="text-3xl font-bold mb-4 border-b-2 border-indigo-400 inline-block">About Me</h3>
+    <p class="text-lg leading-relaxed mb-4">
+      I am passionate about artificial intelligence, data science, and building innovative solutions that make a difference.
+      I love working on projects that combine technology with creativity.
+    </p>
+    <h4 class="text-2xl font-semibold mt-6 mb-2">Skills</h4>
+    <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+      <div class="p-4 bg-gray-800 rounded-lg shadow-lg transform transition duration-300 hover:scale-105 hover:rotate-2">C</div>
+      <div class="p-4 bg-gray-800 rounded-lg shadow-lg transform transition duration-300 hover:scale-105 hover:-rotate-2">DSA</div>
+      <div class="p-4 bg-gray-800 rounded-lg shadow-lg transform transition duration-300 hover:scale-105 hover:rotate-3">JavaScript</div>
+      <div class="p-4 bg-gray-800 rounded-lg shadow-lg transform transition duration-300 hover:scale-105 hover:-rotate-3">HTML</div>
+      <div class="p-4 bg-gray-800 rounded-lg shadow-lg transform transition duration-300 hover:scale-105 hover:rotate-2">CSS</div>
+      <div class="p-4 bg-gray-800 rounded-lg shadow-lg transform transition duration-300 hover:scale-105 hover:-rotate-2">Python</div>
+      <div class="p-4 bg-gray-800 rounded-lg shadow-lg transform transition duration-300 hover:scale-105 hover:rotate-3">Pandas</div>
+      <div class="p-4 bg-gray-800 rounded-lg shadow-lg transform transition duration-300 hover:scale-105 hover:-rotate-3">NumPy</div>
+      <div class="p-4 bg-gray-800 rounded-lg shadow-lg transform transition duration-300 hover:scale-105 hover:rotate-2">scikit-learn</div>
+      <div class="p-4 bg-gray-800 rounded-lg shadow-lg transform transition duration-300 hover:scale-105 hover:-rotate-2">TensorFlow</div>
+    </div>
+  </section>
+
+  <section id="education" class="container mx-auto my-8 p-6">
+    <h3 class="text-3xl font-bold mb-4 border-b-2 border-indigo-400 inline-block">Education</h3>
+    <div class="bg-gray-800 bg-opacity-50 p-6 rounded-lg shadow-lg mb-4 transform transition duration-300 hover:scale-105 hover:rotate-1">
+      <h4 class="text-xl font-semibold">DAV Public School</h4>
+      <p>Passed out in 2022</p>
+    </div>
+    <div class="bg-gray-800 bg-opacity-50 p-6 rounded-lg shadow-lg transform transition duration-300 hover:scale-105 hover:-rotate-1">
+      <h4 class="text-xl font-semibold">SRM University</h4>
+      <p>B.Tech in Computer Science Engineering (Data Science and Artificial Intelligence)</p>
+      <p>2023 - Present</p>
+    </div>
+  </section>
+
+  <section id="projects" class="container mx-auto my-8 p-6">
+    <h3 class="text-3xl font-bold mb-4 border-b-2 border-indigo-400 inline-block">Projects</h3>
+    <div class="grid md:grid-cols-2 gap-8">
+      <div class="bg-gray-800 bg-opacity-50 p-6 rounded-lg shadow-lg transform transition duration-300 hover:scale-105 hover:rotate-2">
+        <h4 class="text-xl font-semibold mb-2">Netflix Clone with AI Integration</h4>
+        <p>A full-stack Netflix clone with chatbot and AI recommendation features.</p>
+      </div>
+      <div class="bg-gray-800 bg-opacity-50 p-6 rounded-lg shadow-lg transform transition duration-300 hover:scale-105 hover:-rotate-2">
+        <h4 class="text-xl font-semibold mb-2">AskNova Assistant</h4>
+        <p>A Streamlit app with IBM Watson integration for sentiment analysis and multilingual support.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="container mx-auto my-8 p-6">
+    <h3 class="text-3xl font-bold mb-4 border-b-2 border-indigo-400 inline-block">Contact</h3>
+    <p>Email: <a href="mailto:sanjeevnidhir05@gmail.com" class="text-indigo-300 underline">sanjeevnidhir05@gmail.com</a></p>
+    <p>Phone: <span class="text-indigo-300">9310169588</span></p>
+    <p>GitHub: <a href="https://github.com/sanju234-san" target="_blank" class="text-indigo-300 underline">github.com/sanju234-san</a></p>
+  </section>
+
+  <footer class="text-center p-4 mt-4">
+    &copy; 2025 Sanjeevni Dhir. All rights reserved.
+  </footer>
+
+</body>
+</html>
